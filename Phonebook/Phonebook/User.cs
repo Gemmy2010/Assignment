@@ -95,33 +95,6 @@ namespace Phonebook
             adressBook.Remove(user.PersonalId);
             Console.WriteLine("user {0} has been deleted" + user.PersonalId);
         }
-
-        /*public List<User> SearchByPersonalId(User user)
-        {
-            // List<User> userList = new List<User>();
-            if (adressBook.Contains(user.PersonalId))
-            {
-
-                foreach (User u in adressBook.Values)
-                {
-
-                    // if (user.PersonalId = u.PersonalId)
-                    // user.Add(u);
-                }
-            }
-        }
-        public override string ToString()
-        {
-            string result;
-            foreach (User u in adressBook.Values)
-            {
-                result = u.ToString();
-
-
-                return result;
-            }
-            return null;
-        }*/
     }
 
 }
